@@ -1,1 +1,2 @@
 day,date,start_value,ticker,action,qty,price,end_value,cumulative_return_pct,notes
+1,2026-07-16,9.13,BTG,BUY,1,3.68,9.10,-0.33%,"Post-market whole-share limit fill @3.68 (limit 3.70); gold safe-haven vs geopolitical risk-off; rail-compliant 40% of acct; marked at last 3.65; cash left 5.45"
