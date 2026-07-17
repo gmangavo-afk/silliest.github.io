@@ -1,2 +1,3 @@
 day,date,start_value,ticker,action,qty,price,end_value,cumulative_return_pct,notes
 1,2026-07-16,9.13,BTG,BUY,1,3.68,9.10,-0.33%,"Post-market whole-share limit fill @3.68 (limit 3.70); gold safe-haven vs geopolitical risk-off; rail-compliant 40% of acct; marked at last 3.65; cash left 5.45"
+2,2026-07-17,9.04,USO,BUY,0.03256,122.85,9.10,-0.37%,"Oil thesis (Gulf tension, USO +3% intraday) via $4 dollar-based market order, placed by user; HELD BTG (bounced 3.59->3.65 intraday); 2 positions both <50% cap; ~84% exposed to geopolitical-risk theme into weekend; cash left 1.45"
