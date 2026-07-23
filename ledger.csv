@@ -4,3 +4,4 @@ day,date,start_value,ticker,action,qty,price,end_value,cumulative_return_pct,not
 MISS,2026-07-20,9.19,-,NO TRADE,-,-,9.19,+0.7%,"MISSED market day: autonomous Routine failed mid-order (connector -32003 approval gate); no trade placed. BTG+USO held, drifted up."
 MISS,2026-07-21,9.42,-,NO TRADE,-,-,9.42,+3.2%,"MISSED market day: AMD buy blocked by connector approval gate; no trade placed. BTG+USO held, oil rallied."
 3,2026-07-22,9.66,USO,SELL,0.01598,131.36,9.68,+6.0%,"User placed recommended trim: sold ~half USO @131.36 ($2.10); locked partial oil gain on parabolic run; held BTG + rest of USO; cash 3.55. First successful semi-auto (notify->user taps)."
+4,2026-07-23,9.71,USO,SELL,0.01658,139.485,9.67,+5.9%,"Completed USO scale-out: sold remaining USO @139.485 post-mkt (user), better than the ~138 midday quote. USO round-trip realized +$0.41 (+10.3%) on $4 cost. Oil parabolic on Hormuz crisis. BTG faded to ~3.81. Cash 5.86 (2.31 unsettled). Now BTG-only + dry powder."

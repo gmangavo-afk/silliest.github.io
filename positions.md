@@ -4,28 +4,29 @@
 **Type:** Cash account, no options → **equities only**. True start: $9.13 (2026-07-16); track % vs $9.13.
 **Execution model:** SEMI-AUTO — autonomous placement is blocked by the connector's per-order approval gate (`-32003`). Each day I research + decide + push the exact order; user taps it in the app; I reconcile the fill next run.
 
-_Last refreshed: 2026-07-23, ~9:33 AM ET (Day 4)_
+_Last refreshed: 2026-07-23, ~4:10 PM ET (Day 4 close)_
 
 ## Account snapshot
 
 | Field | Value |
 |---|---|
-| Total account value | **$9.71** |
-| Cash / buying power | **$3.55** |
-| Cumulative return vs $9.13 | **+6.3%** |
+| Total account value | **$9.67** |
+| Cash | **$5.86** (buying power $3.55 — $2.31 USO proceeds unsettled until ~7/24) |
+| Cumulative return vs $9.13 | **+5.9%** |
 
 ## Open positions
 
 | Ticker | Qty | Avg cost | Last | Mkt value | Unrealized | Plan |
 |---|---|---|---|---|---|---|
-| BTG | 1 | $3.68 | $3.87 | $3.87 | +$0.19 (+5%) | HOLD — steadier safe-haven; dipped today. Cut if it breaks ~$3.60. |
-| USO | 0.01658 | $123.04 | $138.15 | $2.29 | +$0.25 (+12%) | **RECOMMEND SELL (exit)** — parabolic on Hormuz fear; complete the scale-out, lock the gain. |
+| BTG | 1 | $3.68 | $3.81 | $3.81 | +$0.13 (+3.6%) | HOLD — safe-haven; faded with oil grabbing the fear bid. Cut if it breaks ~$3.60. |
 
-## Day 4 recommended order (pending user tap)
-- **SELL all remaining USO (0.01658 sh, ~$2.29) at market** — banks the +12% oil gain before a binary Hormuz reversal. Leaves BTG + ~$5.84 cash as dry powder.
+_USO: fully exited 2026-07-23._
 
-## Realized so far
-- USO trim 2026-07-22: sold 0.01598 sh @ $131.36 (bought avg ~$122.85) → small realized gain, plus de-risked.
+## Realized P&L
+- **USO round-trip: +$0.41 (+10.3%)** on $4.00 cost — bought 0.03256 @ $122.85; sold 0.01598 @ $131.36 (7/22) + 0.01658 @ $139.485 (7/23).
+
+## Dry powder
+- ~$5.86 cash ($3.55 settled + $2.31 unsettled). Redeploy on a pullback / once the risk-off tape settles. Next idea Fri 7/24.
 
 ## Notes
 - Missed market days: Mon 7/20, Tue 7/21 (connector approval gate blocked autonomous placement — no trades).

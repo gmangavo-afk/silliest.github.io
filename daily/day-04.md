@@ -18,10 +18,14 @@ U.S. market OPEN. Semi-auto model: I research + decide + notify; user taps the o
 - **BTG → HOLD.** Gold safe-haven, +5% from entry, only dipped ~2% today. Steadier than oil. Cut if it breaks ~$3.60.
 - **USO → RECOMMEND FULL EXIT.** +12% from entry ($123.04 → $138.15) and going parabolic on a binary Hormuz headline. Geopolitical fear-spikes reverse violently on any de-escalation. Trimmed half Wed @ $131; complete the scale-out now. Booking a big winner at extension > chasing the last dollar.
 
-## Day 4 recommended order (pending user tap)
-- **SELL all remaining USO (0.01658 sh, ~$2.29) at market.**
-- Realizes ~+$0.25 on this slice; removes USO's downside entirely. Remaining book risk = BTG (~-$0.19 on a -5% gold move).
-- Leaves BTG + ~$5.84 cash (dry powder to redeploy on a pullback / once risk-off settles).
+## Day 4 trade (REAL, filled)
+- **USO SELL 0.01658 sh @ $139.485** — post-market limit, placed by user at 4:05 PM ET, $0 fees. Filled above the ~$138 midday quote (oil climbed into the close).
+- **USO round-trip fully closed: +$0.41 realized (+10.3%)** on the $4.00 cost (bought 0.03256 @ $122.85; sold 0.01598 @ $131.36 on 7/22 + 0.01658 @ $139.485 on 7/23).
+- Now BTG-only + ~$5.86 cash ($2.31 unsettled until ~7/24).
+
+## Result / reconciliation (Day 4 close)
+- BTG: 1 sh @ $3.68 avg, ~$3.81 (faded with oil taking the fear bid).
+- Cash: $5.86. Total value **$9.67**.
 
 ## Standing
-**Day 4 — $9.71 — up 6.3% from the $9.13 start.** (Ledger row for today pending confirmation of the USO exit; will reconcile next run.)
+**Day 4 — $9.67 — up 5.9% from the $9.13 start.** Off the intraday $9.71 high because BTG faded, but the USO parabola was sold near the top ($139.49) — clean win banked.
