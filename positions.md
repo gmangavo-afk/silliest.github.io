@@ -1,34 +1,32 @@
 # Positions — 30-Day Trading Challenge
 
-**Trading account:** Robinhood "Agentic" cash account (••••6771) — the only account this connector can trade.
-**Account type:** Cash account, no options level → **equities only**.
-**True starting stake:** $9.13 (funded 2026-07-16). _Challenge tracks % vs this $9.13, not $100 — the account only ever held ~$9._
+**Trading account:** Robinhood "Agentic" cash account (••••6771) — only agentic-tradable account.
+**Type:** Cash account, no options → **equities only**. True start: $9.13 (2026-07-16); track % vs $9.13.
+**Execution model:** SEMI-AUTO — autonomous placement is blocked by the connector's per-order approval gate (`-32003`). Each day I research + decide + push the exact order; user taps it in the app; I reconcile the fill next run.
 
-_Last refreshed: 2026-07-17, ~11:46 AM ET (Day 2)_
+_Last refreshed: 2026-07-23, ~9:33 AM ET (Day 4)_
 
 ## Account snapshot
 
 | Field | Value |
 |---|---|
-| Total account value | **$9.10** |
-| Cash / buying power | **$1.45** |
-| Equity value | $7.65 |
-| Cumulative return vs $9.13 | **-0.37%** |
+| Total account value | **$9.71** |
+| Cash / buying power | **$3.55** |
+| Cumulative return vs $9.13 | **+6.3%** |
 
 ## Open positions
 
-| Ticker | Qty | Avg cost | Last mark | Mkt value | Unrealized | Thesis / plan |
+| Ticker | Qty | Avg cost | Last | Mkt value | Unrealized | Plan |
 |---|---|---|---|---|---|---|
-| BTG (B2Gold) | 1 | $3.68 | $3.65 | $3.65 | -$0.03 | Gold safe-haven. ON NOTICE — miner lagging the metal (gold at record ~$3,983 but BTG down 2 sessions). Cut if it keeps diverging. Target ~$3.90, mental stop ~$3.50. |
-| USO (US Oil Fund) | 0.03256 | $122.85 | $122.74 | $4.00 | -$0.00 | Oil momentum on Gulf/Iran tension (USO +3% intraday on a red equity day). Target +3-5%, mental stop ~-5% (~$116.7). |
+| BTG | 1 | $3.68 | $3.87 | $3.87 | +$0.19 (+5%) | HOLD — steadier safe-haven; dipped today. Cut if it breaks ~$3.60. |
+| USO | 0.01658 | $123.04 | $138.15 | $2.29 | +$0.25 (+12%) | **RECOMMEND SELL (exit)** — parabolic on Hormuz fear; complete the scale-out, lock the gain. |
 
-## Positioning note
-- **~84% of the account is one macro bet:** BTG (gold) + USO (oil) both rise on geopolitical escalation and fall on de-escalation. Held over the weekend of Jul 18-19 — weekend headline risk cuts both ways. Deliberate tilt given oil/gold are the only things bid on a risk-off tape.
+## Day 4 recommended order (pending user tap)
+- **SELL all remaining USO (0.01658 sh, ~$2.29) at market** — banks the +12% oil gain before a binary Hormuz reversal. Leaves BTG + ~$5.84 cash as dry powder.
 
-## Automation
-- Routine "30-Day Trading Challenge — Daily 9:30 ET" (`trig_01JohMT6u1ZBgFMqGgtYSAkq`), cron `30 13 * * 1-5`, self-bind, fully autonomous. **User authorized skipping order-approval prompts (2026-07-17)** — runs place trades directly within the risk rails, no confirmation pause.
-- Verified working on Day 2: the self-bind resume kept the Robinhood connector (reconnected under a new server ID mid-run).
+## Realized so far
+- USO trim 2026-07-22: sold 0.01598 sh @ $131.36 (bought avg ~$122.85) → small realized gain, plus de-risked.
 
-## Notes / mechanics
-- **Cash account settlement:** proceeds from selling are unsettled and not immediately re-tradable same-day; rotate/hold overnight around this.
-- **Regular-hours unlock:** fractional + dollar-based market orders work 9:30–16:00 ET (used for the $4 USO buy). After-hours is whole-share limit only.
+## Notes
+- Missed market days: Mon 7/20, Tue 7/21 (connector approval gate blocked autonomous placement — no trades).
+- Cash-account settlement: sale proceeds unsettled ~1 day; hold/rotate around it.

@@ -1,3 +1,6 @@
 day,date,start_value,ticker,action,qty,price,end_value,cumulative_return_pct,notes
 1,2026-07-16,9.13,BTG,BUY,1,3.68,9.10,-0.33%,"Post-market whole-share limit fill @3.68 (limit 3.70); gold safe-haven vs geopolitical risk-off; rail-compliant 40% of acct; marked at last 3.65; cash left 5.45"
 2,2026-07-17,9.04,USO,BUY,0.03256,122.85,9.10,-0.37%,"Oil thesis (Gulf tension, USO +3% intraday) via $4 dollar-based market order, placed by user; HELD BTG (bounced 3.59->3.65 intraday); 2 positions both <50% cap; ~84% exposed to geopolitical-risk theme into weekend; cash left 1.45"
+MISS,2026-07-20,9.19,-,NO TRADE,-,-,9.19,+0.7%,"MISSED market day: autonomous Routine failed mid-order (connector -32003 approval gate); no trade placed. BTG+USO held, drifted up."
+MISS,2026-07-21,9.42,-,NO TRADE,-,-,9.42,+3.2%,"MISSED market day: AMD buy blocked by connector approval gate; no trade placed. BTG+USO held, oil rallied."
+3,2026-07-22,9.66,USO,SELL,0.01598,131.36,9.68,+6.0%,"User placed recommended trim: sold ~half USO @131.36 ($2.10); locked partial oil gain on parabolic run; held BTG + rest of USO; cash 3.55. First successful semi-auto (notify->user taps)."
