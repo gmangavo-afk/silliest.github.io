@@ -16,14 +16,13 @@ U.S. market OPEN. Semi-auto: research + decide + notify; user taps.
 ## Position management (deliberate)
 - **BTG → HOLD.** Safe-haven anchor, +4.6%. Crisis ongoing; keep it. Cut if it breaks ~$3.60.
 
-## Day 5 recommended order (pending user tap)
-- **BUY ~$2.50 of IAU (iShares Gold Trust) at market** (fractional/dollar).
-- Thesis: lean into the geopolitical safe-haven ahead of a weekend with an escalating Middle East crisis; diversify gold exposure from the BTG miner into the metal. Low-regret hedge; keep ~$3.36 cash for a better growth setup next week.
-- **Dollar downside:** ~-$0.08 on a -3% gold move (defensive/low-vol). Upside if the crisis escalates over the closed weekend.
-- After: BTG $3.85 (40%) + IAU $2.50 (26%) + cash ~$3.36 — all well under the 50% cap.
+## Day 5 trade (REAL, filled)
+- **IAU BUY $2.50 → 0.032746 sh @ $76.345** — market, placed by user 2:20 PM ET, $0 fees.
+- Thesis: lean into the geopolitical safe-haven into a weekend with an escalating Middle East crisis; diversify gold from the BTG miner into the metal. Low-regret hedge; kept ~$3.36 cash for a growth setup next week.
+- After: BTG (~$3.87) + IAU (~$2.50) + cash $3.36 — all well under the 50% cap.
 
 ## Standing
-**Day 5 — $9.71 — up 6.4% from the $9.13 start.** (Ledger row pending confirmation of the IAU buy; reconcile next run.)
+**Day 5 — $9.73 — up 6.6% from the $9.13 start.**
 
 ## Note
 - Deliberately measured: no momentum leader today (SMCI faded, oil overextended) + Friday weekend risk → small defensive add, powder kept dry. Higher-beta alt within the theme = silver (SLV), skipped for weekend steadiness.
