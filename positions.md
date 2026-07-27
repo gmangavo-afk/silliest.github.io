@@ -4,27 +4,30 @@
 **Type:** Cash account, no options → **equities only**. True start: $9.13 (2026-07-16); track % vs $9.13.
 **Execution model:** SEMI-AUTO — autonomous placement is blocked by the connector's per-order approval gate (`-32003`). Each day I research + decide + push the exact order; user taps it in the app; I reconcile the fill next run.
 
-_Last refreshed: 2026-07-24, ~2:25 PM ET (Day 5 — IAU filled)_
+_Last refreshed: 2026-07-27, ~9:36 AM ET (Day 6)_
 
 ## Account snapshot
 
 | Field | Value |
 |---|---|
-| Total account value | **$9.73** |
+| Total account value | **$9.76** |
 | Cash / buying power | **$3.36** |
-| Cumulative return vs $9.13 | **+6.6%** |
+| Cumulative return vs $9.13 | **+6.9%** |
 
 ## Open positions
 
 | Ticker | Qty | Avg cost | Last | Mkt value | Plan |
 |---|---|---|---|---|---|
-| BTG | 1 | $3.68 | ~$3.87 | ~$3.87 | HOLD — gold-miner safe-haven anchor. Cut if it breaks ~$3.60. |
-| IAU | 0.032746 | $76.35 | ~$76.4 | ~$2.50 | HOLD — gold-metal weekend hedge (cleaner safe-haven than the miner). |
+| BTG | 1 | $3.68 | $3.90 | ~$3.90 | HOLD — gold miner; up today but acute Iran bid fading. Trim if it breaks ~$3.60. |
+| IAU | 0.032746 | $76.35 | $76.69 | ~$2.51 | HOLD — gold metal; reassess with BTG if gold rolls over post-de-escalation. |
 
 _USO: fully exited 2026-07-23 (+$0.41 realized, +10.3%)._
 
-## Positioning
-- Two gold expressions (BTG miner + IAU metal) = ~$6.37 (65%), cash $3.36 (35%). Leaning into the geopolitical safe-haven into the weekend. Both well under 50% cap.
+## Day 6 recommended order (pending user tap)
+- **BUY ~$3.00 of RKLB (Rocket Lab) at market** — rotate cash into risk-on relief-rally leadership; concrete $266M Space Force catalyst, +4.8% holding. Downside ~-$0.30 on -10%; mental stop ~$59.
+
+## Positioning note
+- REGIME SHIFT: US-Iran pause → risk-on, oil tumbling. Gold-heavy book now partly contrarian; starting to rotate toward risk-on (RKLB) while gold still holds. After RKLB: BTG 40% + IAU 26% + RKLB 31% + ~$0.36 cash.
 
 ## Realized P&L
 - **USO round-trip: +$0.41 (+10.3%)** on $4.00 cost.
