@@ -19,11 +19,10 @@ U.S. market OPEN. Semi-auto: research + decide + notify; user taps.
 - **BTG → HOLD, tight notice.** Still +3.9% with a cushion; Fed base case (no hike) isn't clearly gold-bearish, so don't whipsaw the anchor before the decision. Cut if hawkish Fed or breaks ~$3.75.
 - **No new risk into the Fed.** Chips routing + binary Fed tomorrow → not a day to chase high-beta. Raise cash, redeploy post-Fed.
 
-## Day 7 recommended order (pending user tap)
-- **SELL all IAU (0.032746 sh, ~$2.48) at market.**
-- Realizes ~-$0.02 (tiny loss); kills the dead-thesis hedge; raises cash to ~$5.84 for a post-Fed redeploy.
-- Downside removed on the weaker gold leg ahead of a binary Fed.
-- After: BTG (~$3.83, ~40%) + cash ~$5.84. Well under 50% cap; ~60% cash into the Fed = deliberate de-risking.
+## Day 7 trade (REAL, filled)
+- **IAU SELL 0.032746 sh @ $75.7103 ($2.48)** — market, placed by user 3:58 PM ET, $0 fees. Realized ~-$0.02 vs $76.345 cost.
+- Killed the dead-thesis gold hedge; de-risked ahead of Wed's Fed. Raised cash to $5.84 ($2.48 unsettled).
+- After: BTG (~$3.86, ~40%) + cash $5.84 (~60%). BTG recovered into the close.
 
 ## Standing
-**Day 7 — $9.67 — up 5.9% from the $9.13 start.** (Ledger row pending confirmation of the IAU sell; reconcile next run.)
+**Day 7 — $9.70 — up 6.2% from the $9.13 start.** (BTG bounced into the close; net realized P&L to date +$0.39.)
