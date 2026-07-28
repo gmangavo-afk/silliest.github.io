@@ -4,30 +4,30 @@
 **Type:** Cash account, no options → **equities only**. True start: $9.13 (2026-07-16); track % vs $9.13.
 **Execution model:** SEMI-AUTO — autonomous placement is blocked by the connector's per-order approval gate (`-32003`). Each day I research + decide + push the exact order; user taps it in the app; I reconcile the fill next run.
 
-_Last refreshed: 2026-07-27, ~9:36 AM ET (Day 6)_
+_Last refreshed: 2026-07-28, ~9:36 AM ET (Day 7)_
 
 ## Account snapshot
 
 | Field | Value |
 |---|---|
-| Total account value | **$9.76** |
+| Total account value | **$9.67** |
 | Cash / buying power | **$3.36** |
-| Cumulative return vs $9.13 | **+6.9%** |
+| Cumulative return vs $9.13 | **+5.9%** |
 
 ## Open positions
 
 | Ticker | Qty | Avg cost | Last | Mkt value | Plan |
 |---|---|---|---|---|---|
-| BTG | 1 | $3.68 | $3.90 | ~$3.90 | HOLD — gold miner; up today but acute Iran bid fading. Trim if it breaks ~$3.60. |
-| IAU | 0.032746 | $76.35 | $76.69 | ~$2.51 | HOLD — gold metal; reassess with BTG if gold rolls over post-de-escalation. |
+| BTG | 1 | $3.68 | $3.825 | ~$3.83 | HOLD, tight notice — +3.9%, but gold fading. Cut if hawkish Fed (Wed) or breaks ~$3.75. |
+| IAU | 0.032746 | $76.35 | $75.79 | ~$2.48 | **RECOMMEND SELL** — weekend-hedge thesis dead (Iran pause); underwater; Fed-hike headwind. |
 
-_USO: fully exited 2026-07-23 (+$0.41 realized, +10.3%)._
+_USO: fully exited 2026-07-23 (+$0.41 realized, +10.3%). RKLB rec (Mon) not placed; reversed -5.8%._
 
-## Day 6 recommended order (pending user tap)
-- **BUY ~$3.00 of RKLB (Rocket Lab) at market** — rotate cash into risk-on relief-rally leadership; concrete $266M Space Force catalyst, +4.8% holding. Downside ~-$0.30 on -10%; mental stop ~$59.
+## Day 7 recommended order (pending user tap)
+- **SELL all IAU (~$2.48) at market** — cut the dead-thesis gold hedge; raise cash to ~$5.84; de-risk ahead of Wed's Fed. Realizes ~-$0.02.
 
 ## Positioning note
-- REGIME SHIFT: US-Iran pause → risk-on, oil tumbling. Gold-heavy book now partly contrarian; starting to rotate toward risk-on (RKLB) while gold still holds. After RKLB: BTG 40% + IAU 26% + RKLB 31% + ~$0.36 cash.
+- Gold rolling over as the Iran fear premium unwinds + hawkish Fed drift. Trimming the weaker gold leg (IAU), holding the cushioned anchor (BTG) into the Fed, ~60% cash for a post-Fed redeploy. No new high-beta risk into a binary Fed + chip rout.
 
 ## Realized P&L
 - **USO round-trip: +$0.41 (+10.3%)** on $4.00 cost.
